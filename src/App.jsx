@@ -1,21 +1,30 @@
-import Home from './Components/Home'
-import About from './Components/About'
-import Projects from './Components/Projects'
-import Skills from './Components/Skills'
-import Contact from './Components/Contact'
+import Navbar from "./Components/Navbar"
 
-function App() {
+export default function App() {
+  
+  let userInput = "Sai Krishna"
+
   return (
-    <>
-      <h1> Hello </h1>
-      <h1> Bye </h1>
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
-    </>
+      <div>
+        <Navbar />
+        {/* <Home name = {userInput} age = {22} /> */}
+      </div>
+
+
+
+
+
+
+    // <>
+    //   <h1> Hello </h1>
+    //   <h1> Bye </h1>
+    //   <Home />
+    //   <About />
+    //   <Projects />
+    //   <Skills />
+    //   <Contact />
+    // </>
   )
 }
 
-export default App
+//export default App
